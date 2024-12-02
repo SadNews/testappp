@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="23507" systemVersion="24B91" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="MealEntity" representedClassName="MealEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="id" attributeType="String"/>
+        <attribute name="mealCal" optional="YES" attributeType="String"/>
+        <attribute name="mealCategory" optional="YES" attributeType="String"/>
+        <attribute name="mealCookTime" attributeType="String"/>
+        <attribute name="mealDescription" attributeType="String"/>
+        <attribute name="mealImageUrl" optional="YES" attributeType="String"/>
+        <attribute name="mealIsFavorite" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="mealIsRecommend" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="mealName" attributeType="String"/>
+        <attribute name="mealVideoUrl" optional="YES" attributeType="String"/>
+        <attribute name="recipeOfTheDay" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+    </entity>
+</model>
