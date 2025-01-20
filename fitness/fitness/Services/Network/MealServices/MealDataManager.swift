@@ -28,9 +28,9 @@ final class MealDataManager: MealDataManagerProtocol {
     }
     
     func getMeals(page: Int) -> AnyPublisher<[Meal], Error> {
-//        let isFirstLaunch: Bool = userDefaultsService.getValue(for: .isFirstLaunch) ?? true 
+        //        let isFirstLaunch: Bool = userDefaultsService.getValue(for: .isFirstLaunch) ?? true 
         let isFirstLaunch: Bool = true
-
+        
         if isFirstLaunch {
             return networkService.getMealPlans(page: page)
                 .handleEvents(receiveOutput: { [weak self] meals in
@@ -86,5 +86,5 @@ final class MealDataManager: MealDataManagerProtocol {
 enum MyError: Error {
     case selfIsNil
     case mealNotFound
-
+    
 }
