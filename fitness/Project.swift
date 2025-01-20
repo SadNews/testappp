@@ -24,20 +24,13 @@ let project = Project(
                 ]
             ),
             sources: ["fitness/**"],
-            resources: ["fitness/Resources/**"],
-            dependencies: [
-                .package(product: "FirebaseFirestore")
-            ]
-        ),
-        .target(
-            name: "FitnessTests",
-            destinations: .iOS,
-            product: .unitTests,
-            bundleId: "com.andreyushakov.fitness.tests",
-            infoPlist: .default,
-            sources: ["fitnessTests/**"],
             resources: [],
-            dependencies: [.target(name: "Fitness")]
+            dependencies: [
+                .project(target: "MealPlans", path: "../Modules/MealPlans"),
+                .project(target: "Core", path: "../Modules/Core"),
+                .project(target: "CoreUI", path: "../Modules/CoreUI")
+            ]
         )
     ]
 )
+

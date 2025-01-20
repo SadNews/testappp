@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D8A0136BAAE5AD30A9E5FDDE"
-               BuildableName = "FitnessTests.xctest"
-               BlueprintName = "FitnessTests"
-               ReferencedContainer = "container:Fitness.xcodeproj">
+               BlueprintIdentifier = "9196B3CD20A5865C72C1731F"
+               BuildableName = "MealPlans.framework"
+               BlueprintName = "MealPlans"
+               ReferencedContainer = "container:../Modules/MealPlans/MealPlans.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -42,17 +42,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO"
-            parallelizable = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D8A0136BAAE5AD30A9E5FDDE"
-               BuildableName = "FitnessTests.xctest"
-               BlueprintName = "FitnessTests"
-               ReferencedContainer = "container:Fitness.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
