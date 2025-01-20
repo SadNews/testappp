@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
+   <Group
+      location = "group:../Modules"
+      name = "Modules">
+      <FileRef
+         location = "group:MealPlans/MealPlans.xcodeproj">
+      </FileRef>
+   </Group>
    <FileRef
       location = "group:Fitness.xcodeproj">
    </FileRef>
